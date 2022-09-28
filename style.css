@@ -44,7 +44,7 @@ a{
 }
 #bgdark{
     background-color: rgb(48,48,48);
-    margin-top: 8px;
+    margin-top: 4px;
     padding: 12px 25px;
 }
 #nav2right{
@@ -82,7 +82,7 @@ a>.btns{
 .btns{
     cursor: pointer;
     position: relative;
-    padding: 20px 0px;
+    padding: 15px 0px;
 }
 
 /* //////////////////////////////////Dropdown style////////// */
