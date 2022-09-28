@@ -11,8 +11,6 @@ a{
 }
 #main{
     margin-top: 100px;
-    height: 500px;
-    border: 1px solid rgb(53, 0, 0);
 }
 #navbar{
     margin: auto;
@@ -21,7 +19,6 @@ a{
 }
 #nav1>a{
     text-decoration: none;
-    font-size: 15px;
     color: white;
 }
 #nav1{
@@ -29,10 +26,11 @@ a{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 15px;
     color: white;
 }
 #nav2{
+    background-color: #464646;
+    height: 42px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -108,15 +106,34 @@ a>.btns{
     display: block;
   }
 
+  /* ////////////////////////////////////////////// Middle Section ////////////////// */
 
 
 
-
-
-
-
-/* *************************************************************** */
-#nav2{
+/* //////////////////////////////////////////////  Footer /////////////////////// */
+#footer{
     background-color: #464646;
-    height: 42px;
+    height: 300px;
+    margin-top: 160px;
+}
+.mid{
+    margin: auto;
+    width: 70%;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.icons,h4~p>a,h4~a>p{
+    color: white;
+    font-size: 15px;
+}
+.mid+p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgb(201, 201, 201);
+}
+.icons{
+    padding-right: 20px;
 }
