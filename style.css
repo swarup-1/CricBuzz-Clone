@@ -2,7 +2,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #cacaca;
+    background-color: #e4e4e4;
     /* font-family: 'Poppins', sans-serif; */
     font-family: helvetica,"Segoe UI",Arial,sans-serif
 }
@@ -129,7 +129,7 @@ a>.btns{
 .news-card{
     flex: 0 0 auto;
     width: 21%;
-    border-right: 1px solid #cacaca;
+    border-right: 1px solid #e4e4e4;
     line-height: 10px;
     margin-left: 45px;
     margin-bottom: 20px;
@@ -227,11 +227,11 @@ a>.btns{
     margin: 0px;
 }
 .line{
-    border-bottom: 1px solid #cacaca;
+    border-bottom: 1px solid #e4e4e4;
     margin: 10PX;
 }
 .gap{
-    border: 3px solid #cacaca;
+    border: 3px solid #e4e4e4;
     width: 105%;
 }
 img{
@@ -252,24 +252,6 @@ img{
     color: blue;
     font-weight: 700;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* //////////////////////////////////////////////  Footer /////////////////////// */
 #footer{
@@ -300,4 +282,63 @@ img{
 }
 
 /* ////////////////////////////////////////////////////////// */
-
+#loginnav1{
+    background-color: #008b6a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: auto;
+    width: 79.2%;
+    padding: 5px;
+}
+#loginnav2{
+    background-color: #ffffff;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 5px;
+    width: 80%;
+    border-bottom: 1px solid #e4e4e4;
+}
+#loginright{
+    width: 120px;
+    padding-right: 20px;
+}
+#loginnavbar{
+    margin-top: 12px;
+}
+#loginleft{
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 15px;
+}
+/* ************************************* */
+.loginpage{
+    width: 80%;
+    margin: auto;
+    height: 520px;
+    background-color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+.x2{
+    font-size: 17px;
+}
+.fa-envelope{
+    font-size: 25px;
+}
+#email{
+    border: 0px;
+    border-bottom: 1px solid gray;
+    width: 28%;
+}
+#email+p{
+    margin-top: 60px;
+    font-size: 13px;
+}
+.termsconditions{
+    color: blue;
+}
