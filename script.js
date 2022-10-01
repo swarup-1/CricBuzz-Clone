@@ -15,6 +15,7 @@ newsContainer.forEach((el,i)=> {
     })
 })
 
+
 document.querySelector("#loginbtn").addEventListener("submit",userRecord);
 
 let cartArr = JSON.parse(localStorage.getItem("mens_data")) || []
