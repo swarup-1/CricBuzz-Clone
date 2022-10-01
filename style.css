@@ -64,7 +64,7 @@ a>.btns{
     border-radius: 50px;
 }
 /* /////////////////////////////////////icon style//////////// */
-#login{
+#login>a{
     font-size: 20px;
     color: rgb(255, 255, 255);
 }
