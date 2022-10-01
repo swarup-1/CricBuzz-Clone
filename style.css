@@ -342,3 +342,36 @@ img{
 .termsconditions{
     color: blue;
 }
+/* ****************************************************************** */
+.newsfirst{
+    width: 69%;
+    background-color: white;
+    height: 3550px;
+    padding:20px;
+    border-right: 1px solid gray;
+}
+.newssecond{
+    width: 30%;
+    background-color: white;
+    height: 3400px;
+    /* margin-left: 7px; */
+    padding: 0px 30px;
+}
+.newsimg{
+    width: 280px;
+    height: 170px;
+    margin: 20px;
+}
+.newsmiddle{
+    display: flex;
+    font-size: 15px;
+}
+.subnav{
+    font-weight: 500;
+}
+.selected{
+    color: #008b6a;
+    font-weight: 700;
+    border-bottom: 3px solid #008b6a;
+    padding-bottom: 10px;
+}
