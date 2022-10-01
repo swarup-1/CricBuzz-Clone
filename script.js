@@ -14,3 +14,12 @@ newsContainer.forEach((el,i)=> {
         el.scrollLeft -= containerWidth
     })
 })
+
+document.querySelector("#loginbtn").addEventListener("submit",userRecord);
+
+let cartArr = JSON.parse(localStorage.getItem("mens_data")) || []
+function userRecord(event){
+    event.preventDefault();
+
+    let userEmail = document.querySelector("#email").value;
+}
