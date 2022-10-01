@@ -30,14 +30,16 @@
             </div>
         </div>
         <div class="loginpage">
-            <h2 class="blackh2">Login / Sign Up</h2>
-            <p class="pgray x2">We will send OTP to your email id</p>
-            <i class="fa-regular fa-envelope"></i>
-            <input type="email" name="" id="email" placeholder="Enter your email id">
-            <p id="consitions"> <input type="checkbox" id="terms" name="terms" value="terms">  I agree with the <a href="" class="termsconditions"> Terms of Use </a> and <a href="" class="termsconditions"> Privacy Policy </a> of Cricbuzz </p>
-            <input type="text" id="loginbtn">
-            
+            <form>
+                <h2 class="blackh2">Login / Sign Up</h2>
+                <p class="pgray x2">We will send OTP to your email id</p>
+                <i class="fa-regular fa-envelope"></i>
+                <input type="email" name="" id="email" placeholder="Enter your email id" required="required">
+                <p id="consitions"> <input type="checkbox" id="terms" name="terms" value="terms" required="required">  I agree with the <a href="" class="termsconditions"> Terms of Use </a> and <a href="" class="termsconditions"> Privacy Policy </a> of Cricbuzz </p>
+                <input id="submit" type="submit" value="Sign Up" />
+            </form>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

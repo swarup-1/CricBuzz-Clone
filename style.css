@@ -369,6 +369,12 @@ img{
 .subnav{
     font-weight: 500;
 }
+.subnav:hover{
+    color: #008b6a;
+    font-weight: 700;
+    border-bottom: 3px solid #008b6a;
+    padding-bottom: 10px;
+}
 .selected{
     color: #008b6a;
     font-weight: 700;
@@ -378,7 +384,7 @@ img{
 .videos{
     width: 96.4%;
     background-color: white;
-    height: 1000px;
+    height: 2000px;
     padding: 0px 20px;
 }
 
@@ -393,4 +399,17 @@ img{
     margin-top: 60px;
     margin-right: 30px;
     font-size: 50px;
+}
+#loginbutton ,#password{
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    padding: 10px;
+}
+#loginbutton, #submit{
+    width: 40%;
+    text-align: center;
+    border: 0px;
+    background-color: #008b6a;
+    padding: 10px 0px;
 }
