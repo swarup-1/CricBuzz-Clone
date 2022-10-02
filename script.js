@@ -51,7 +51,7 @@ function logedin(){
     
     if(password==savepass){
         if (window.confirm('Login Successful ! Go to Home-page')){
-        window.location.href="homepage.html";
+        window.location.href="index.html";
         };
 
 
